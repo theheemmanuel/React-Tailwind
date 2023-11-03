@@ -27,7 +27,7 @@ const Hero = () => {
           platform
         </p>
         <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium my-6 py-3 text-black">
-          Get Started
+          <a href="#analysis">Get Started</a>
         </button>
       </div>
     </div>

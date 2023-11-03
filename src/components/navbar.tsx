@@ -33,19 +33,19 @@ const Navbar = () => {
         <h1 className="text-3xl font-bold text-[#00DF9a]">HeeFinance.</h1>
         <ul className="p-4 uppercase">
           <a href="#">
-            <li className="p-4 border-b border-gray-500">Home</li>
+            <li className="p-8 border-b border-gray-500">Home</li>
           </a>
           <a href="#">
-            <li className="p-4 border-b border-gray-500">Company</li>
+            <li className="p-8 border-b border-gray-500">Company</li>
           </a>
           <a href="#">
-            <li className="p-4 border-b border-gray-500">Resources</li>
+            <li className="p-8 border-b border-gray-500">Resources</li>
           </a>
           <a href="#">
-            <li className="p-4 border-b border-gray-500">About</li>
+            <li className="p-8 border-b border-gray-500">About</li>
           </a>
           <a href="#">
-            <li className="p-4 border-b border-gray-500">Contact</li>
+            <li className="p-8 border-b border-gray-500">Contact</li>
           </a>
         </ul>
       </div>

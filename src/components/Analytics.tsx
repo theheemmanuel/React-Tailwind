@@ -2,7 +2,7 @@ import analy from "../assets/971.jpg";
 
 const Analytics = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div id="analysis" className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[500px] mx-auto my-4" src={analy} alt="laptop" />
         <div className="flex flex-col justify-center mx-2 max-md:text-center">
