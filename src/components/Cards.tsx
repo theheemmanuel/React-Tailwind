@@ -30,7 +30,7 @@ const Cards = () => {
             src={Frame2}
             alt=""
           />
-          <h2 className="text-2xl font-bold text-center py-6">Single User</h2>
+          <h2 className="text-2xl font-bold text-center py-6">Couple User</h2>
           <p className="text-center font-bold text-4xl">$149</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8 border-t">500GB Storage</p>
@@ -47,7 +47,7 @@ const Cards = () => {
             src={Frame3}
             alt=""
           />
-          <h2 className="text-2xl font-bold text-center py-6">Single User</h2>
+          <h2 className="text-2xl font-bold text-center py-6">Community User</h2>
           <p className="text-center font-bold text-4xl">$149</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8 border-t">500GB Storage</p>

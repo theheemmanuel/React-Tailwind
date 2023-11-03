@@ -17,7 +17,7 @@ const footer = () => {
           praesentium libero explicabo asperiores earum obcaecati eligendi
           repellendus nam repellat similique.
         </p>
-        <div className="flex md:w-[75%] mx-auto justify-between my-6">
+        <div className="flex md:w-[75%] md:mx-auto mx-8 justify-between my-6">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
