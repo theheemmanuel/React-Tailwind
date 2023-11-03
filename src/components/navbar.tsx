@@ -3,7 +3,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
-  const [nav, getNav] = useState(true);
+  const [nav, getNav] = useState(false);
 
   const handleNav = () => {
     getNav(!nav);
@@ -20,12 +20,12 @@ const Navbar = () => {
         <li className="p-4">Contact</li>
       </ul>
       <div onClick={handleNav} className="md:hidden">
-        {!nav ? <AiOutlineClose size={30} /> : <CiMenuFries size={30} />}
+        {nav ? <AiOutlineClose size={30} /> : <CiMenuFries size={30} />}
       </div>
 
       <div
         className={
-          !nav
+          nav
             ? "fixed left-0 top-4 h-full p-4 w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-700"
             : "fixed left-[-100%]"
         }
