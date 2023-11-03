@@ -13,9 +13,9 @@ const Hero = () => {
         </h1>
         <div>
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            Welcome to SustainaFinance Data{" "}
+            Flex, Flexible financing for{" "}
             <Typed
-              strings={["Nexus", "Hub", "Webpage"]}
+              strings={["BTB", "BTC", "SASS"]}
               typeSpeed={100}
               backSpeed={100}
               loop
@@ -23,7 +23,8 @@ const Hero = () => {
           </p>
         </div>
         <p className="md:text-2xl text-xl text-gray-500 ">
-          Monitor the data analytics in africa to increase your research scope
+          Monitor your data analytics to increase revenue for BTB, BTC & SASS
+          platform
         </p>
         <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium my-6 py-3 text-black">
           Get Started
