@@ -1,4 +1,3 @@
-import React from "react";
 import analy from "../assets/971.jpg";
 
 const Analytics = () => {
