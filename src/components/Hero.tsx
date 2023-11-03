@@ -13,9 +13,9 @@ const Hero = () => {
         </h1>
         <div>
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            Flex, Flexible financing for{" "}
+            Welcome to SustainaFinance Data{" "}
             <Typed
-              strings={["BTB", "BTC", "SASS"]}
+              strings={["Nexus", "Hub", "Webpage"]}
               typeSpeed={100}
               backSpeed={100}
               loop
