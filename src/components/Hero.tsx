@@ -4,7 +4,7 @@ import Typed from "react-typed";
 const Hero = () => {
   return (
     <div>
-      <div className="max-w-[800px] mt-[-96px] h-[100vh] mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] mt-[-96px] w-full h-[100vh] mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00DF9a] p-2 font-bold ">
           GROWING WITH DATA ANALYTICS
         </p>
@@ -18,6 +18,7 @@ const Hero = () => {
               strings={["BTB", "BTC", "SASS"]}
               typeSpeed={100}
               backSpeed={100}
+              loop
             />
           </p>
         </div>
