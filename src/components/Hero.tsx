@@ -23,8 +23,7 @@ const Hero = () => {
           </p>
         </div>
         <p className="md:text-2xl text-xl text-gray-500 ">
-          Monitor your data analytics to increase revenue for BTB, BTC & SASS
-          platform
+          Monitor the data analytics in africa to increase your research scope
         </p>
         <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium my-6 py-3 text-black">
           Get Started
