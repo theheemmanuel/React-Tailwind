@@ -2,8 +2,9 @@ import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
-import "./App.css";
 import Cards from "./components/Cards";
+import Footer from "./components/footer";
+import "./App.css";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </div>
   );
 }
