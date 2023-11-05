@@ -31,7 +31,7 @@ const Cards = () => {
             alt=""
           />
           <h2 className="text-2xl font-bold text-center py-6">Couple User</h2>
-          <p className="text-center font-bold text-4xl">$149</p>
+          <p className="text-center font-bold text-4xl">$369</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8 border-t">500GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
@@ -48,7 +48,7 @@ const Cards = () => {
             alt=""
           />
           <h2 className="text-2xl font-bold text-center py-6">Community User</h2>
-          <p className="text-center font-bold text-4xl">$149</p>
+          <p className="text-center font-bold text-4xl">$500</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8 border-t">500GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
