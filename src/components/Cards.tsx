@@ -50,9 +50,9 @@ const Cards = () => {
           <h2 className="text-2xl font-bold text-center py-6">Community User</h2>
           <p className="text-center font-bold text-4xl">$500</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8 border-t">500GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8 border-t">5TB Storage</p>
+            <p className="py-2 border-b mx-8">Unlimited Granted User</p>
+            <p className="py-2 border-b mx-8">Send up to 20 GB</p>
           </div>
           <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium my-6 py-3 text-black">
             Start Trial
