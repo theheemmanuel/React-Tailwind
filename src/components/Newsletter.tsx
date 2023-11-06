@@ -15,7 +15,7 @@ function Newsletter() {
             <input
               className="p-3 rounded-md text-black w-full font-b"
               type="email"
-              placeholder="Enter your mail"
+              placeholder="Enter your mail address"
             />
             <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium sm:ml-2 my-6 py-3 text-black">
               Notify me
