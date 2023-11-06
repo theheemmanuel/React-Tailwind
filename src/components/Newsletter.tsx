@@ -1,6 +1,6 @@
 // import React from "react";
 
-const Newsletter = () => {
+function Newsletter() {
   return (
     <div className="w-full text-white py-16">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 items-center">
@@ -29,7 +29,6 @@ const Newsletter = () => {
       </div>
     </div>
   );
-};
-
+}
 
 export default Newsletter;
