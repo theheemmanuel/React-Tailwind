@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center h-24 justify-between max-w-[1280px] px-6 mx-auto">
-      <h1 className="text-3xl font-bold text-[#00DF9a]">HeeFinance.</h1>
+      <h1 className="text-3xl font-bold text-[#00DF9a]">HeeTech.</h1>
       <ul className="flex max-md:hidden">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="text-3xl font-bold text-[#00DF9a]">HeeFinance.</h1>
+        <h1 className="text-3xl font-bold text-[#00DF9a]">HeeTech.</h1>
         <ul className="p-4 uppercase">
           <a href="#">
             <li className="p-8 border-b border-gray-500">Home</li>
