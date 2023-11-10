@@ -7,3 +7,5 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
