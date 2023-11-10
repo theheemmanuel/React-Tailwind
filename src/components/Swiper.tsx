@@ -41,7 +41,7 @@ const Swiper = () => {
         <div className="swiper-button-next"></div>
 
         {/* <!-- If we need scrollbar --> */}
-        <div className="swiper-scrollbar"></div>
+        {/* <div className="swiper-scrollbar"></div> */}
       </div>
     </div>
   );
