@@ -4,7 +4,7 @@ import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/footer";
-import Swiper from "./components/Swiper";
+// import Swiper from "./components/Swiper";
 import "./App.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
-      <Swiper />
+      {/* <Swiper /> */}
       <Footer />
     </div>
   );
