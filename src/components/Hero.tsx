@@ -13,25 +13,39 @@ const Hero = () => {
         </h1>
         <div>
           <p className="md:text-4xl sm:text-3xl text-xl font-bold py-4">
-            Flex, Flexible financing for{" "}
-            <Typed
+            Flex, Flexible financing for BTC{" "}
+            {/* <Typed
               strings={["BTB", "BTC", "SASS"]}
               typeSpeed={100}
               backSpeed={100}
               loop
-            />
+            /> */}
           </p>
         </div>
         <p className="md:text-2xl text-xl text-gray-500 ">
           Monitor your data analytics to increase revenue for BTB, BTC & SASS
           platform
         </p>
-        <button className="mx-auto bg-[#00DF9a] w-[200px] rounded-md font-medium my-6 py-3 text-black">
-          <a href="#analysis">Get Started</a>
-        </button>
+
+        <div className="flex gap-6 justify-center items-center">
+          <AddButton>
+            <a href="#analysis">Get Started</a>
+          </AddButton>
+          <AddButton>
+            <a href="#cards">Subscribe Now</a>
+          </AddButton>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Hero;
+
+export function AddButton({ children }) {
+  return (
+    <div className="bg-[#00DF9a] rounded-md font-medium my-6 p-3 text-black">
+      {children}
+    </div>
+  );
+}

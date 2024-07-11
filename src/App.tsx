@@ -5,17 +5,18 @@ import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/footer";
 import "./App.css";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <div>
+    <Fragment>
       <Navbar />
       <Hero />
       <Analytics />
       <Newsletter />
       <Cards />
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 

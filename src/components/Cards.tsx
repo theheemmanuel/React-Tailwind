@@ -5,7 +5,7 @@ import Frame3 from "../assets/Frame (5).png";
 
 const Cards = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white text-black">
+    <div id="cards" className="w-full py-[10rem] px-4 bg-white text-black">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col my-4 p-4 rounded-lg hover:scale-105 duration-500">
           <img
